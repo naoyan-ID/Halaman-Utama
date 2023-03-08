@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+#navbar {
+  padding: 0rem 2rem;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 80, 197, 1) 0%,
+    rgba(100, 50, 163, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nama {
+  margin-left: 0.4rem;
+}
+.list-item {
+  padding: 0.5rem;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.list-item li {
+  padding: 0 1rem;
+}
+.list-item li button {
+  background-color: transparent;
+  border: none;
+}
+.list-item li button img {
+  border-radius: 100%;
+}
+.fa-message {
+  margin-right: 0.25rem;
+}
+.button-help {
+  margin-left: 0.25rem;
+}
+#container {
+  display: flex;
+  height: auto;
+}
+#main-menu {
+  background-color: #222d32;
+}
+#menu-mahasiswa :hover {
+  background-color: gray;
+}
+#isi-menu {
+  padding: 1rem;
+  display: flex;
+  position: sticky;
+  width: max-content;
+  gap: 0.5rem;
+  background-color: #222d32;
+}
+.menu-jadwal {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+.menu-jadwal img {
+  border-radius: 100%;
+}
+.menu-nama {
+  margin-left: 1rem;
+}
+.fa-circle {
+  color: rgb(43, 243, 43);
+  font-size: 10px;
+}
+.dashboard {
+  color: #aac5ce;
+  padding: 0.75rem;
+  background-color: #1e282c;
+}
+.dashboard span {
+  font-size: 12px;
+}
+.presensi {
+  color: #aac5ce;
+  padding: 0.75rem;
+  background-color: #1e282c;
+}
+.presensi span {
+  font-size: 12px;
+  color: #aac5ce;
+}
+.fa-table {
+  color: green;
+}
+.menu-mhs {
+  color: #8baeb5;
+  background-color: #1a2226;
+  padding: 0.75rem;
+}
+.menu-kelas {
+  color: #8baeb5;
+  background-color: #1a2226;
+  padding: 0.75rem;
+}
+.list-kelas :hover {
+  background-color: none;
+}
+.list-kelas li {
+  padding: 0.5rem 0.5rem 1rem 1rem;
+}
+.list-kelas h5 {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-users-rectangle {
+  margin-top: 0.25rem;
+}
+.fa-chevron-right {
+  margin-top: 0.25rem;
+}
+.logout {
+  padding: 1rem;
+  background-color: #1a2226;
+}
+.logout button {
+  border: none;
+  background-color: Transparent;
+  color: #ff180e;
+}
+.fa-power-off {
+  color: #ff180e;
+}
+#heading {
+  background-color: #24272b;
+  width: 100%;
+}
+.dosen {
+  display: flex;
+  background-color: #24272b;
+}
+.dosen h2 {
+  padding: 1rem;
+}
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 20px;
+  height: 10px;
+  padding: 0.75rem;
+  margin-top: 1rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+.card {
+  padding: 1rem;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+}
+.card:hover {
+  background-color: gray;
+}
+.card-head-1 {
+  display: flex;
+  padding: 1rem;
+  background-color: #f39c12;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-1 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-1 p {
+  font-size: 15px;
+}
+.card-info {
+  padding: 0.5rem;
+  background-color: white;
+}
+.card-info p {
+  font-size: 11px;
+  color: #00a65a;
+}
+.card-info h4 {
+  color: #0073b7;
+  padding-bottom: 0.25rem;
+}
+.card-body {
+  background-color: white;
+}
+.card-body-list {
+  list-style: none;
+}
+.card-body-jadwal-uts {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.jadwal-uts {
+  color: #00a65a;
+}
+.pertemuan-uts {
+  border-radius: 100%;
+  background-color: #00a65a;
+  padding: 0.25rem 0.5rem;
+}
+.card-body-jadwal-uas {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.jadwal-uas {
+  color: #f39c12;
+}
+.pertemuan-uas {
+  border-radius: 100%;
+  background-color: #f39c12;
+  padding: 0.25rem 0.1rem;
+}
+.card-body-presensi {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.presensi-mahasiswa {
+  color: #dd4b39;
+}
+.pertemuan-presensi {
+  border: 1px;
+  border-radius: 100%;
+  background-color: #dd4b39;
+  padding: 0.25rem 0.5rem;
+}
+.card-body-peserta {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.jumlah-peserta {
+  border-radius: 100%;
+  background-color: #dd4b39;
+  padding: 0.25rem 0.5rem;
+}
+.card-body-rps {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.jumlah-rps {
+  border-radius: 100%;
+  background-color: #0073b7;
+  padding: 0.25rem 0.5rem;
+}
+.card-body-kelompok {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.jumlah-kelompok {
+  border-radius: 100%;
+  background-color: #f39c12;
+  padding: 0.25rem 0.5rem;
+}
+.card-body-quiz {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.jumlah-quiz {
+  border-radius: 100%;
+  background-color: #00c0ef;
+  padding: 0.25rem 0.5rem;
+}
+.card-body-forum {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.jumlah-forum {
+  border-radius: 100%;
+  background-color: #00a65a;
+  padding: 0.25rem 0.5rem;
+}
+.card-head-2 {
+  display: flex;
+  padding: 1rem;
+  background-color: #00c0ef;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-2 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-2 p {
+  font-size: 15px;
+}
+.card-head-3 {
+  display: flex;
+  padding: 1rem;
+  background-color: #00a65a;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-3 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-3 p {
+  font-size: 15px;
+}
+.card-head-4 {
+  display: flex;
+  padding: 1rem;
+  background-color: #f39c12;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-4 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-4 p {
+  font-size: 15px;
+}
+.card-head-5 {
+  display: flex;
+  padding: 1rem;
+  background-color: #00c0ef;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-5 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-5 p {
+  font-size: 15px;
+}
+.card-head-6 {
+  display: flex;
+  padding: 1rem;
+  background-color: #00a65a;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-6 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-6 p {
+  font-size: 15px;
+}
+.card-head-7 {
+  display: flex;
+  padding: 1rem;
+  background-color: #f39c12;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-7 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-7 p {
+  font-size: 15px;
+}
+.card-head-8 {
+  display: flex;
+  padding: 1rem;
+  background-color: #00c0ef;
+  color: white;
+  font-size: 24px;
+  gap: 1rem;
+}
+.card-head-8 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.card-head-8 p {
+  font-size: 15px;
+}
+.footer {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #1a2226;
+}
