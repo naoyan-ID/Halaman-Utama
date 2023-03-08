@@ -21,9 +21,12 @@
   align-items: center;
   gap: 0.5rem;
 }
-
-.nama {
-  margin-left: 0.4rem;
+.nav-logo h3 {
+  color: white;
+}
+.fa-align-justify {
+  color: white;
+  margin-left: 1rem;
 }
 .list-item {
   padding: 0.5rem;
@@ -33,8 +36,10 @@
 }
 .list-item li {
   padding: 0 1rem;
+  color: white;
 }
 .list-item li button {
+  color: white;
   background-color: transparent;
   border: none;
 }
@@ -42,9 +47,11 @@
   border-radius: 100%;
 }
 .fa-message {
+  color: white;
   margin-right: 0.25rem;
 }
 .button-help {
+  color: white;
   margin-left: 0.25rem;
 }
 #container {
@@ -58,6 +65,7 @@
   background-color: gray;
 }
 #isi-menu {
+  color: white;
   padding: 1rem;
   display: flex;
   position: sticky;
@@ -81,7 +89,7 @@
   font-size: 10px;
 }
 .dashboard {
-  color: #aac5ce;
+  color: white;
   padding: 0.75rem;
   background-color: #1e282c;
 }
@@ -89,13 +97,12 @@
   font-size: 12px;
 }
 .presensi {
-  color: #aac5ce;
   padding: 0.75rem;
   background-color: #1e282c;
 }
 .presensi span {
   font-size: 12px;
-  color: #aac5ce;
+  color: white;
 }
 .fa-table {
   color: green;
@@ -109,6 +116,9 @@
   color: #8baeb5;
   background-color: #1a2226;
   padding: 0.75rem;
+}
+.list-kelas {
+  color: white;
 }
 .list-kelas :hover {
   background-color: none;
@@ -139,12 +149,11 @@
   color: #ff180e;
 }
 #heading {
-  background-color: #24272b;
+  background-color: #ecf0f5;
   width: 100%;
 }
 .dosen {
   display: flex;
-  background-color: #24272b;
 }
 .dosen h2 {
   padding: 1rem;
@@ -174,8 +183,8 @@
 }
 .card {
   padding: 1rem;
-  border: 1px solid #ffff;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 .card:hover {
   background-color: gray;
@@ -410,6 +419,6 @@
 }
 .footer {
   text-align: center;
-  padding: 0.5rem;
-  background-color: #1a2226;
+  padding: 1rem;
+  background-color: #ffffff;
 }
